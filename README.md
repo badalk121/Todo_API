@@ -1,4 +1,3 @@
-```
 # To-Do List API
 
 This is a simple To-Do list API built using FastAPI framework with MongoDB Atlas as the database. It provides endpoints to perform CRUD operations on To-Do items.
@@ -6,6 +5,7 @@ This is a simple To-Do list API built using FastAPI framework with MongoDB Atlas
 ## Installation
 
 1. Clone the repository:
+
 ```
 
 git clone <repository-url>
@@ -13,6 +13,7 @@ git clone <repository-url>
 ```
 
 2. Install the dependencies:
+
 ```
 
 pip install -r requirements.txt
@@ -26,6 +27,7 @@ Before running the API, make sure to set up the MongoDB Atlas connection URL, us
 ## Usage
 
 1. Start the server:
+
 ```
 
 uvicorn main:app --reload
@@ -38,5 +40,3 @@ uvicorn main:app --reload
    - `POST /todos/`: Create a new todo.
    - `GET /todos/{todo_id}`: Retrieve a todo by ID.
    - Implement other CRUD functionalities similarly.
-
-```
