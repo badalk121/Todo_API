@@ -8,7 +8,7 @@ This is a simple To-Do list API built using FastAPI framework with MongoDB Atlas
 
 ```
 
-git clone <repository-url>
+git clone https://github.com/badalk121/Todo_API.git
 
 ```
 
